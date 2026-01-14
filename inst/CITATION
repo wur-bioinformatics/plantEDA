@@ -5,7 +5,7 @@ bibentry(
   author = person("Rens", "Holmer"),
   year = "2026",
   note = "R package version 0.1.0",
-  doi = "10.5281/zenodo.1234567",
+  doi = "10.5281/zenodo.18248901",
   url = "https://github.com/wur-bioinformatics/plantEDA"
 )
 
