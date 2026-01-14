@@ -5,7 +5,7 @@ Version: 0.1.0
 Authors@R: 
     person("Rens", "Holmer", email = "rens.holmer@wur.nl", role = c("aut", "cre"))
 Description: Curated datasets for teaching exploratory data analysis in plant sciences.
-License: CC BY 4.0
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
