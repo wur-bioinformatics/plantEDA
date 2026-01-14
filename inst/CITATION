@@ -1,0 +1,28 @@
+## Package citation
+bibentry(
+  bibtype = "Manual",
+  title = "planteda: Example Datasets for Exploratory Data Analysis in Plant Sciences",
+  author = person("Rens", "Holmer"),
+  year = "2026",
+  note = "R package version 0.1.0",
+  doi = "10.5281/zenodo.1234567",
+  url = "https://github.com/wur-bioinformatics/plantEDA"
+)
+
+
+## Original data sources
+bibentry(
+  bibtype = "Article",
+  title = "CoRRE Trait Data: A dataset of 17 categorical and continuous traits for 4079 grassland species worldwide",
+  author = c(
+    person("K. J.", "Komatsu"),
+    person("M. L.", "Avolio"),
+    person("J.", "Padullés Cubino"),
+    person("et al.")
+  ),
+  journal = "Scientific Data",
+  year = "2024",
+  volume = "11",
+  pages = "795",
+  doi = "10.1038/s41597-024-03637-x"
+)

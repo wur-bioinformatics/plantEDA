@@ -1,0 +1,21 @@
+#' Categorical traits from the CoRRE Trait Data
+#'
+#' Based on the publication "CoRRE Trait Data: A dataset of 17 categorical and continuous traits for 4079 grassland species worldwide"
+#'
+#' @format A data frame with 4079 rows and 11 variables:
+#' \describe{
+#'   \item{family}{Unique plant identifier}
+#'   \item{species}{Plant species}
+#'   \item{leaf_type}{Leaf Type}
+#'   \item{leaf_compoundness}{Leaf Compoundness}
+#'   \item{stem_support}{Stem Support}
+#'   \item{growth_form}{Growth Form (graminoid, forb, fern, cactus, vine, lycophyte, woody)}
+#'   \item{photosynthetic_pathway}{Photosynthetic Pathway}
+#'   \item{lifespan}{Lifespan}
+#'   \item{clonal}{Clonal}
+#'   \item{mycorrhizal_type}{Mycorrhizal Type}
+#'   \item{n_fixation_type}{Nitrogen Fixation Type}
+#' }
+#'
+#' @source Komatsu, K.J., Avolio, M.L., Padullés Cubino, J. et al. CoRRE Trait Data: A dataset of 17 categorical and continuous traits for 4079 grassland species worldwide. Sci Data 11, 795 (2024). https://doi.org/10.1038/s41597-024-03637-x
+"corre_categorical"
