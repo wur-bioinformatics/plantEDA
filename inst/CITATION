@@ -26,3 +26,20 @@ bibentry(
   pages = "795",
   doi = "10.1038/s41597-024-03637-x"
 )
+
+bibentry(
+  bibtype = "Article",
+  title = "Global coordination and trade-off of grassland species traits and climatic drivers",
+  author = c(
+    person("K.", "Sun"),
+    person("R.", "Sun"),
+    person("L.", "Liu"),
+    person("G.", "Zhou"),
+    person("Z", "Xu")
+  ),
+  journal = "Journal of Ecology",
+  year = "2025",
+  volume = "113",
+  pages = "3210-3224",
+  doi = "10.1111/1365-2745.70153"
+)

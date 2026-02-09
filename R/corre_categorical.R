@@ -1,20 +1,21 @@
 #' Categorical traits from the CoRRE Trait Data
 #'
-#' Based on the publication "CoRRE Trait Data: A dataset of 17 categorical and continuous traits for 4079 grassland species worldwide"
+#' Based on the publication "CoRRE Trait Data: A dataset of 17 categorical and continuous traits for 4079 grassland species worldwide".
+#' Raw categorical data was downloaded from the EDI Data Portal (https://doi.org/10.6073/pasta/a33c9be2bd819d6b1a2c52663d561158).
 #'
 #' @format A data frame with 4079 rows and 11 variables:
 #' \describe{
 #'   \item{family}{Unique plant identifier}
 #'   \item{species}{Plant species}
-#'   \item{leaf_type}{Leaf Type}
-#'   \item{leaf_compoundness}{Leaf Compoundness}
-#'   \item{stem_support}{Stem Support}
+#'   \item{leaf_type}{Leaf Type (broad, narrow, needle, scale, frond, microphyll, modified, none)}
+#'   \item{leaf_compoundness}{Leaf Compoundness (simple, compound, none)}
+#'   \item{stem_support}{Stem Support (self-supporting, pendent, epiphyte, decumbent, prostrate, climbing)}
 #'   \item{growth_form}{Growth Form (graminoid, forb, fern, cactus, vine, lycophyte, woody)}
-#'   \item{photosynthetic_pathway}{Photosynthetic Pathway}
-#'   \item{lifespan}{Lifespan}
-#'   \item{clonal}{Clonal}
-#'   \item{mycorrhizal_type}{Mycorrhizal Type}
-#'   \item{n_fixation_type}{Nitrogen Fixation Type}
+#'   \item{photosynthetic_pathway}{Photosynthetic Pathway (C3, C4, CAM, hybrid, parasitic, uncertain)}
+#'   \item{lifespan}{Lifespan (annual, biennial, perennial)}
+#'   \item{clonal}{Clonal (yes, no, uncertain)}
+#'   \item{mycorrhizal_type}{Mycorrhizal Type (AM (arbuscular mycorrhizae), EcM (ectomycorrhizae), ErM (ericaceous mycorrhizae), OM (orchidaceous mycorrhizae), multiple, none, uncertain)}
+#'   \item{n_fixation_type}{Nitrogen Fixation Type (none, rhizobial, actinorhizal)}
 #' }
 #'
 #' @source Komatsu, K.J., Avolio, M.L., Padullés Cubino, J. et al. CoRRE Trait Data: A dataset of 17 categorical and continuous traits for 4079 grassland species worldwide. Sci Data 11, 795 (2024). https://doi.org/10.1038/s41597-024-03637-x
